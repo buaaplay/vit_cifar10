@@ -1,0 +1,12 @@
+# 忽略所有.pth文件
+*.pth
+
+# 忽略超过1MB的文件
+# 使用Git LFS处理大文件，或者手动管理
+find . -type f -size +1M -print >> .gitignore
+
+# 你还可以根据需要添加其他规则
+__pycache__/
+*.pyc
+.env
+.DS_Store

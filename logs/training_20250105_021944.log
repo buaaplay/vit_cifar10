@@ -1,0 +1,407 @@
+2025-01-05 02:19:44,336 | INFO | 开始执行训练脚本...
+2025-01-05 02:19:44,336 | INFO | 日志将保存到 ./logs/batch64_lr0.0003_wd0.05_modelvit_base_patch16_224_20250105_021944
+2025-01-05 02:19:44,337 | INFO | 加载数据...
+2025-01-05 02:19:46,238 | INFO | 构建模型...
+2025-01-05 02:19:48,097 | INFO | 转换为 SyncBatchNorm 并使用 DistributedDataParallel...
+2025-01-05 02:19:49,266 | INFO | 设置损失函数和优化器...
+2025-01-05 02:19:49,268 | INFO | 开始第 1 轮训练。
+2025-01-05 02:20:24,261 | INFO | Epoch [1] Train Loss: 2.5111 | Train Acc: 15.78% | Train Time: 34.99s
+2025-01-05 02:20:26,861 | INFO | Epoch [1] Val Loss: 2.0590 | Val Acc: 21.92% | Val Time: 2.60s
+2025-01-05 02:20:26,862 | INFO | Epoch [1] Train Loss: 2.5111 | Train Acc: 15.78% | Train Time: 34.99s | Val Loss: 2.0590 | Val Acc: 21.92% | Val Time: 2.60s | Total Elapsed Time: 37.59s
+2025-01-05 02:20:32,677 | INFO | 开始第 2 轮训练。
+2025-01-05 02:21:00,892 | INFO | Epoch [2] Train Loss: 2.1054 | Train Acc: 20.11% | Train Time: 28.21s
+2025-01-05 02:21:03,387 | INFO | Epoch [2] Val Loss: 1.9934 | Val Acc: 25.84% | Val Time: 2.49s
+2025-01-05 02:21:03,389 | INFO | Epoch [2] Train Loss: 2.1054 | Train Acc: 20.11% | Train Time: 28.21s | Val Loss: 1.9934 | Val Acc: 25.84% | Val Time: 2.49s | Total Elapsed Time: 74.12s
+2025-01-05 02:21:08,877 | INFO | 开始第 3 轮训练。
+2025-01-05 02:21:39,812 | INFO | Epoch [3] Train Loss: 2.0512 | Train Acc: 23.02% | Train Time: 30.93s
+2025-01-05 02:21:42,671 | INFO | Epoch [3] Val Loss: 1.9063 | Val Acc: 26.64% | Val Time: 2.86s
+2025-01-05 02:21:42,672 | INFO | Epoch [3] Train Loss: 2.0512 | Train Acc: 23.02% | Train Time: 30.93s | Val Loss: 1.9063 | Val Acc: 26.64% | Val Time: 2.86s | Total Elapsed Time: 113.40s
+2025-01-05 02:21:48,462 | INFO | 开始第 4 轮训练。
+2025-01-05 02:22:16,654 | INFO | Epoch [4] Train Loss: 2.0182 | Train Acc: 22.91% | Train Time: 28.19s
+2025-01-05 02:22:19,530 | INFO | Epoch [4] Val Loss: 1.8535 | Val Acc: 30.00% | Val Time: 2.87s
+2025-01-05 02:22:19,531 | INFO | Epoch [4] Train Loss: 2.0182 | Train Acc: 22.91% | Train Time: 28.19s | Val Loss: 1.8535 | Val Acc: 30.00% | Val Time: 2.87s | Total Elapsed Time: 150.26s
+2025-01-05 02:22:25,957 | INFO | 开始第 5 轮训练。
+2025-01-05 02:22:54,182 | INFO | Epoch [5] Train Loss: 1.9656 | Train Acc: 24.94% | Train Time: 28.22s
+2025-01-05 02:22:57,086 | INFO | Epoch [5] Val Loss: 1.7951 | Val Acc: 32.56% | Val Time: 2.90s
+2025-01-05 02:22:57,086 | INFO | Epoch [5] Train Loss: 1.9656 | Train Acc: 24.94% | Train Time: 28.22s | Val Loss: 1.7951 | Val Acc: 32.56% | Val Time: 2.90s | Total Elapsed Time: 187.82s
+2025-01-05 02:23:02,798 | INFO | 开始第 6 轮训练。
+2025-01-05 02:23:30,962 | INFO | Epoch [6] Train Loss: 1.9184 | Train Acc: 27.98% | Train Time: 28.16s
+2025-01-05 02:23:33,919 | INFO | Epoch [6] Val Loss: 1.8704 | Val Acc: 28.24% | Val Time: 2.95s
+2025-01-05 02:23:33,920 | INFO | Epoch [6] Train Loss: 1.9184 | Train Acc: 27.98% | Train Time: 28.16s | Val Loss: 1.8704 | Val Acc: 28.24% | Val Time: 2.95s | Total Elapsed Time: 224.65s
+2025-01-05 02:23:33,920 | INFO | 开始第 7 轮训练。
+2025-01-05 02:24:06,116 | INFO | Epoch [7] Train Loss: 1.9455 | Train Acc: 26.45% | Train Time: 32.19s
+2025-01-05 02:24:08,755 | INFO | Epoch [7] Val Loss: 1.7633 | Val Acc: 30.24% | Val Time: 2.64s
+2025-01-05 02:24:08,756 | INFO | Epoch [7] Train Loss: 1.9455 | Train Acc: 26.45% | Train Time: 32.19s | Val Loss: 1.7633 | Val Acc: 30.24% | Val Time: 2.64s | Total Elapsed Time: 259.49s
+2025-01-05 02:24:08,756 | INFO | 开始第 8 轮训练。
+2025-01-05 02:24:41,845 | INFO | Epoch [8] Train Loss: 1.8616 | Train Acc: 30.34% | Train Time: 33.09s
+2025-01-05 02:24:44,610 | INFO | Epoch [8] Val Loss: 1.6902 | Val Acc: 35.04% | Val Time: 2.76s
+2025-01-05 02:24:44,611 | INFO | Epoch [8] Train Loss: 1.8616 | Train Acc: 30.34% | Train Time: 33.09s | Val Loss: 1.6902 | Val Acc: 35.04% | Val Time: 2.76s | Total Elapsed Time: 295.34s
+2025-01-05 02:24:50,942 | INFO | 开始第 9 轮训练。
+2025-01-05 02:25:19,012 | INFO | Epoch [9] Train Loss: 1.8237 | Train Acc: 31.47% | Train Time: 28.07s
+2025-01-05 02:25:21,881 | INFO | Epoch [9] Val Loss: 1.6726 | Val Acc: 38.00% | Val Time: 2.87s
+2025-01-05 02:25:21,882 | INFO | Epoch [9] Train Loss: 1.8237 | Train Acc: 31.47% | Train Time: 28.07s | Val Loss: 1.6726 | Val Acc: 38.00% | Val Time: 2.87s | Total Elapsed Time: 332.61s
+2025-01-05 02:25:28,542 | INFO | 开始第 10 轮训练。
+2025-01-05 02:25:56,730 | INFO | Epoch [10] Train Loss: 1.7960 | Train Acc: 33.70% | Train Time: 28.19s
+2025-01-05 02:25:59,695 | INFO | Epoch [10] Val Loss: 1.7262 | Val Acc: 33.52% | Val Time: 2.96s
+2025-01-05 02:25:59,696 | INFO | Epoch [10] Train Loss: 1.7960 | Train Acc: 33.70% | Train Time: 28.19s | Val Loss: 1.7262 | Val Acc: 33.52% | Val Time: 2.96s | Total Elapsed Time: 370.43s
+2025-01-05 02:25:59,696 | INFO | 开始第 11 轮训练。
+2025-01-05 02:26:31,544 | INFO | Epoch [11] Train Loss: 1.7582 | Train Acc: 35.41% | Train Time: 31.85s
+2025-01-05 02:26:34,270 | INFO | Epoch [11] Val Loss: 1.5882 | Val Acc: 41.12% | Val Time: 2.72s
+2025-01-05 02:26:34,271 | INFO | Epoch [11] Train Loss: 1.7582 | Train Acc: 35.41% | Train Time: 31.85s | Val Loss: 1.5882 | Val Acc: 41.12% | Val Time: 2.72s | Total Elapsed Time: 405.00s
+2025-01-05 02:26:40,737 | INFO | 开始第 12 轮训练。
+2025-01-05 02:27:08,762 | INFO | Epoch [12] Train Loss: 1.7555 | Train Acc: 35.49% | Train Time: 28.02s
+2025-01-05 02:27:11,647 | INFO | Epoch [12] Val Loss: 1.6353 | Val Acc: 38.48% | Val Time: 2.88s
+2025-01-05 02:27:11,648 | INFO | Epoch [12] Train Loss: 1.7555 | Train Acc: 35.49% | Train Time: 28.02s | Val Loss: 1.6353 | Val Acc: 38.48% | Val Time: 2.88s | Total Elapsed Time: 442.38s
+2025-01-05 02:27:11,648 | INFO | 开始第 13 轮训练。
+2025-01-05 02:27:43,744 | INFO | Epoch [13] Train Loss: 1.6823 | Train Acc: 38.43% | Train Time: 32.09s
+2025-01-05 02:27:46,559 | INFO | Epoch [13] Val Loss: 1.5385 | Val Acc: 41.52% | Val Time: 2.81s
+2025-01-05 02:27:46,560 | INFO | Epoch [13] Train Loss: 1.6823 | Train Acc: 38.43% | Train Time: 32.09s | Val Loss: 1.5385 | Val Acc: 41.52% | Val Time: 2.81s | Total Elapsed Time: 477.29s
+2025-01-05 02:27:52,942 | INFO | 开始第 14 轮训练。
+2025-01-05 02:28:21,287 | INFO | Epoch [14] Train Loss: 1.6916 | Train Acc: 38.24% | Train Time: 28.34s
+2025-01-05 02:28:24,205 | INFO | Epoch [14] Val Loss: 1.5421 | Val Acc: 42.96% | Val Time: 2.92s
+2025-01-05 02:28:24,206 | INFO | Epoch [14] Train Loss: 1.6916 | Train Acc: 38.24% | Train Time: 28.34s | Val Loss: 1.5421 | Val Acc: 42.96% | Val Time: 2.92s | Total Elapsed Time: 514.94s
+2025-01-05 02:28:30,463 | INFO | 开始第 15 轮训练。
+2025-01-05 02:28:58,526 | INFO | Epoch [15] Train Loss: 1.6204 | Train Acc: 40.93% | Train Time: 28.06s
+2025-01-05 02:29:00,945 | INFO | Epoch [15] Val Loss: 1.5257 | Val Acc: 45.04% | Val Time: 2.42s
+2025-01-05 02:29:00,946 | INFO | Epoch [15] Train Loss: 1.6204 | Train Acc: 40.93% | Train Time: 28.06s | Val Loss: 1.5257 | Val Acc: 45.04% | Val Time: 2.42s | Total Elapsed Time: 551.68s
+2025-01-05 02:29:07,344 | INFO | 开始第 16 轮训练。
+2025-01-05 02:29:35,435 | INFO | Epoch [16] Train Loss: 1.6270 | Train Acc: 40.66% | Train Time: 28.09s
+2025-01-05 02:29:38,328 | INFO | Epoch [16] Val Loss: 1.5511 | Val Acc: 42.32% | Val Time: 2.89s
+2025-01-05 02:29:38,329 | INFO | Epoch [16] Train Loss: 1.6270 | Train Acc: 40.66% | Train Time: 28.09s | Val Loss: 1.5511 | Val Acc: 42.32% | Val Time: 2.89s | Total Elapsed Time: 589.06s
+2025-01-05 02:29:38,329 | INFO | 开始第 17 轮训练。
+2025-01-05 02:30:10,351 | INFO | Epoch [17] Train Loss: 1.5724 | Train Acc: 42.93% | Train Time: 32.02s
+2025-01-05 02:30:12,869 | INFO | Epoch [17] Val Loss: 1.4993 | Val Acc: 46.00% | Val Time: 2.52s
+2025-01-05 02:30:12,870 | INFO | Epoch [17] Train Loss: 1.5724 | Train Acc: 42.93% | Train Time: 32.02s | Val Loss: 1.4993 | Val Acc: 46.00% | Val Time: 2.52s | Total Elapsed Time: 623.60s
+2025-01-05 02:30:15,957 | INFO | 开始第 18 轮训练。
+2025-01-05 02:30:46,205 | INFO | Epoch [18] Train Loss: 1.5573 | Train Acc: 44.30% | Train Time: 30.22s
+2025-01-05 02:30:49,302 | INFO | Epoch [18] Val Loss: 1.4700 | Val Acc: 46.96% | Val Time: 3.09s
+2025-01-05 02:30:49,303 | INFO | Epoch [18] Train Loss: 1.5573 | Train Acc: 44.30% | Train Time: 30.22s | Val Loss: 1.4700 | Val Acc: 46.96% | Val Time: 3.09s | Total Elapsed Time: 660.03s
+2025-01-05 02:30:55,924 | INFO | 开始第 19 轮训练。
+2025-01-05 02:31:24,272 | INFO | Epoch [19] Train Loss: 1.5078 | Train Acc: 45.25% | Train Time: 28.35s
+2025-01-05 02:31:27,301 | INFO | Epoch [19] Val Loss: 1.3996 | Val Acc: 49.44% | Val Time: 3.03s
+2025-01-05 02:31:27,302 | INFO | Epoch [19] Train Loss: 1.5078 | Train Acc: 45.25% | Train Time: 28.35s | Val Loss: 1.3996 | Val Acc: 49.44% | Val Time: 3.03s | Total Elapsed Time: 698.03s
+2025-01-05 02:31:31,467 | INFO | 开始第 20 轮训练。
+2025-01-05 02:32:01,337 | INFO | Epoch [20] Train Loss: 1.4825 | Train Acc: 47.02% | Train Time: 29.87s
+2025-01-05 02:32:04,189 | INFO | Epoch [20] Val Loss: 1.3237 | Val Acc: 51.92% | Val Time: 2.85s
+2025-01-05 02:32:04,190 | INFO | Epoch [20] Train Loss: 1.4825 | Train Acc: 47.02% | Train Time: 29.87s | Val Loss: 1.3237 | Val Acc: 51.92% | Val Time: 2.85s | Total Elapsed Time: 734.92s
+2025-01-05 02:32:10,607 | INFO | 开始第 21 轮训练。
+2025-01-05 02:32:39,321 | INFO | Epoch [21] Train Loss: 1.4612 | Train Acc: 47.71% | Train Time: 28.71s
+2025-01-05 02:32:42,441 | INFO | Epoch [21] Val Loss: 1.4840 | Val Acc: 48.64% | Val Time: 3.12s
+2025-01-05 02:32:42,441 | INFO | Epoch [21] Train Loss: 1.4612 | Train Acc: 47.71% | Train Time: 28.71s | Val Loss: 1.4840 | Val Acc: 48.64% | Val Time: 3.12s | Total Elapsed Time: 773.17s
+2025-01-05 02:32:42,441 | INFO | 开始第 22 轮训练。
+2025-01-05 02:33:15,305 | INFO | Epoch [22] Train Loss: 1.4859 | Train Acc: 46.80% | Train Time: 32.86s
+2025-01-05 02:33:18,366 | INFO | Epoch [22] Val Loss: 1.2673 | Val Acc: 54.32% | Val Time: 3.06s
+2025-01-05 02:33:18,367 | INFO | Epoch [22] Train Loss: 1.4859 | Train Acc: 46.80% | Train Time: 32.86s | Val Loss: 1.2673 | Val Acc: 54.32% | Val Time: 3.06s | Total Elapsed Time: 809.10s
+2025-01-05 02:33:22,684 | INFO | 开始第 23 轮训练。
+2025-01-05 02:33:52,305 | INFO | Epoch [23] Train Loss: 1.4339 | Train Acc: 48.70% | Train Time: 29.62s
+2025-01-05 02:33:55,308 | INFO | Epoch [23] Val Loss: 1.3383 | Val Acc: 50.96% | Val Time: 3.00s
+2025-01-05 02:33:55,309 | INFO | Epoch [23] Train Loss: 1.4339 | Train Acc: 48.70% | Train Time: 29.62s | Val Loss: 1.3383 | Val Acc: 50.96% | Val Time: 3.00s | Total Elapsed Time: 846.04s
+2025-01-05 02:33:55,309 | INFO | 开始第 24 轮训练。
+2025-01-05 02:34:29,011 | INFO | Epoch [24] Train Loss: 1.4321 | Train Acc: 47.65% | Train Time: 33.70s
+2025-01-05 02:34:32,104 | INFO | Epoch [24] Val Loss: 1.3075 | Val Acc: 54.48% | Val Time: 3.09s
+2025-01-05 02:34:32,105 | INFO | Epoch [24] Train Loss: 1.4321 | Train Acc: 47.65% | Train Time: 33.70s | Val Loss: 1.3075 | Val Acc: 54.48% | Val Time: 3.09s | Total Elapsed Time: 882.84s
+2025-01-05 02:34:36,603 | INFO | 开始第 25 轮训练。
+2025-01-05 02:35:06,486 | INFO | Epoch [25] Train Loss: 1.3966 | Train Acc: 49.52% | Train Time: 29.88s
+2025-01-05 02:35:09,845 | INFO | Epoch [25] Val Loss: 1.2303 | Val Acc: 55.84% | Val Time: 3.36s
+2025-01-05 02:35:09,845 | INFO | Epoch [25] Train Loss: 1.3966 | Train Acc: 49.52% | Train Time: 29.88s | Val Loss: 1.2303 | Val Acc: 55.84% | Val Time: 3.36s | Total Elapsed Time: 920.58s
+2025-01-05 02:35:14,814 | INFO | 开始第 26 轮训练。
+2025-01-05 02:35:44,643 | INFO | Epoch [26] Train Loss: 1.3771 | Train Acc: 50.26% | Train Time: 29.83s
+2025-01-05 02:35:47,996 | INFO | Epoch [26] Val Loss: 1.2067 | Val Acc: 57.20% | Val Time: 3.35s
+2025-01-05 02:35:47,998 | INFO | Epoch [26] Train Loss: 1.3771 | Train Acc: 50.26% | Train Time: 29.83s | Val Loss: 1.2067 | Val Acc: 57.20% | Val Time: 3.35s | Total Elapsed Time: 958.73s
+2025-01-05 02:35:53,291 | INFO | 开始第 27 轮训练。
+2025-01-05 02:36:23,766 | INFO | Epoch [27] Train Loss: 1.3696 | Train Acc: 51.09% | Train Time: 30.47s
+2025-01-05 02:36:27,410 | INFO | Epoch [27] Val Loss: 1.2105 | Val Acc: 56.96% | Val Time: 3.64s
+2025-01-05 02:36:27,410 | INFO | Epoch [27] Train Loss: 1.3696 | Train Acc: 51.09% | Train Time: 30.47s | Val Loss: 1.2105 | Val Acc: 56.96% | Val Time: 3.64s | Total Elapsed Time: 998.14s
+2025-01-05 02:36:27,411 | INFO | 开始第 28 轮训练。
+2025-01-05 02:37:03,045 | INFO | Epoch [28] Train Loss: 1.3414 | Train Acc: 51.57% | Train Time: 35.63s
+2025-01-05 02:37:06,639 | INFO | Epoch [28] Val Loss: 1.1645 | Val Acc: 57.36% | Val Time: 3.59s
+2025-01-05 02:37:06,640 | INFO | Epoch [28] Train Loss: 1.3414 | Train Acc: 51.57% | Train Time: 35.63s | Val Loss: 1.1645 | Val Acc: 57.36% | Val Time: 3.59s | Total Elapsed Time: 1037.37s
+2025-01-05 02:37:13,250 | INFO | 开始第 29 轮训练。
+2025-01-05 02:37:43,247 | INFO | Epoch [29] Train Loss: 1.3235 | Train Acc: 52.59% | Train Time: 29.99s
+2025-01-05 02:37:46,718 | INFO | Epoch [29] Val Loss: 1.1591 | Val Acc: 57.36% | Val Time: 3.47s
+2025-01-05 02:37:46,719 | INFO | Epoch [29] Train Loss: 1.3235 | Train Acc: 52.59% | Train Time: 29.99s | Val Loss: 1.1591 | Val Acc: 57.36% | Val Time: 3.47s | Total Elapsed Time: 1077.45s
+2025-01-05 02:37:46,719 | INFO | 开始第 30 轮训练。
+2025-01-05 02:38:21,624 | INFO | Epoch [30] Train Loss: 1.3069 | Train Acc: 53.10% | Train Time: 34.90s
+2025-01-05 02:38:24,842 | INFO | Epoch [30] Val Loss: 1.1718 | Val Acc: 57.68% | Val Time: 3.22s
+2025-01-05 02:38:24,843 | INFO | Epoch [30] Train Loss: 1.3069 | Train Acc: 53.10% | Train Time: 34.90s | Val Loss: 1.1718 | Val Acc: 57.68% | Val Time: 3.22s | Total Elapsed Time: 1115.57s
+2025-01-05 02:38:28,841 | INFO | 开始第 31 轮训练。
+2025-01-05 02:39:00,335 | INFO | Epoch [31] Train Loss: 1.3119 | Train Acc: 53.52% | Train Time: 31.49s
+2025-01-05 02:39:03,635 | INFO | Epoch [31] Val Loss: 1.1090 | Val Acc: 59.92% | Val Time: 3.30s
+2025-01-05 02:39:03,636 | INFO | Epoch [31] Train Loss: 1.3119 | Train Acc: 53.52% | Train Time: 31.49s | Val Loss: 1.1090 | Val Acc: 59.92% | Val Time: 3.30s | Total Elapsed Time: 1154.37s
+2025-01-05 02:39:10,501 | INFO | 开始第 32 轮训练。
+2025-01-05 02:39:40,313 | INFO | Epoch [32] Train Loss: 1.2832 | Train Acc: 54.34% | Train Time: 29.81s
+2025-01-05 02:39:44,096 | INFO | Epoch [32] Val Loss: 1.0991 | Val Acc: 61.04% | Val Time: 3.78s
+2025-01-05 02:39:44,096 | INFO | Epoch [32] Train Loss: 1.2832 | Train Acc: 54.34% | Train Time: 29.81s | Val Loss: 1.0991 | Val Acc: 61.04% | Val Time: 3.78s | Total Elapsed Time: 1194.83s
+2025-01-05 02:39:48,910 | INFO | 开始第 33 轮训练。
+2025-01-05 02:40:18,790 | INFO | Epoch [33] Train Loss: 1.2638 | Train Acc: 55.22% | Train Time: 29.88s
+2025-01-05 02:40:22,189 | INFO | Epoch [33] Val Loss: 1.0874 | Val Acc: 60.72% | Val Time: 3.40s
+2025-01-05 02:40:22,190 | INFO | Epoch [33] Train Loss: 1.2638 | Train Acc: 55.22% | Train Time: 29.88s | Val Loss: 1.0874 | Val Acc: 60.72% | Val Time: 3.40s | Total Elapsed Time: 1232.92s
+2025-01-05 02:40:22,190 | INFO | 开始第 34 轮训练。
+2025-01-05 02:40:57,479 | INFO | Epoch [34] Train Loss: 1.2346 | Train Acc: 56.06% | Train Time: 35.29s
+2025-01-05 02:41:01,006 | INFO | Epoch [34] Val Loss: 1.0885 | Val Acc: 61.84% | Val Time: 3.52s
+2025-01-05 02:41:01,007 | INFO | Epoch [34] Train Loss: 1.2346 | Train Acc: 56.06% | Train Time: 35.29s | Val Loss: 1.0885 | Val Acc: 61.84% | Val Time: 3.52s | Total Elapsed Time: 1271.74s
+2025-01-05 02:41:06,184 | INFO | 开始第 35 轮训练。
+2025-01-05 02:41:36,329 | INFO | Epoch [35] Train Loss: 1.2393 | Train Acc: 55.65% | Train Time: 30.14s
+2025-01-05 02:41:39,968 | INFO | Epoch [35] Val Loss: 1.1222 | Val Acc: 60.08% | Val Time: 3.64s
+2025-01-05 02:41:39,969 | INFO | Epoch [35] Train Loss: 1.2393 | Train Acc: 55.65% | Train Time: 30.14s | Val Loss: 1.1222 | Val Acc: 60.08% | Val Time: 3.64s | Total Elapsed Time: 1310.70s
+2025-01-05 02:41:39,969 | INFO | 开始第 36 轮训练。
+2025-01-05 02:42:13,330 | INFO | Epoch [36] Train Loss: 1.2311 | Train Acc: 56.48% | Train Time: 33.36s
+2025-01-05 02:42:16,433 | INFO | Epoch [36] Val Loss: 1.0333 | Val Acc: 63.76% | Val Time: 3.10s
+2025-01-05 02:42:16,433 | INFO | Epoch [36] Train Loss: 1.2311 | Train Acc: 56.48% | Train Time: 33.36s | Val Loss: 1.0333 | Val Acc: 63.76% | Val Time: 3.10s | Total Elapsed Time: 1347.16s
+2025-01-05 02:42:22,597 | INFO | 开始第 37 轮训练。
+2025-01-05 02:42:51,314 | INFO | Epoch [37] Train Loss: 1.2025 | Train Acc: 56.83% | Train Time: 28.72s
+2025-01-05 02:42:54,412 | INFO | Epoch [37] Val Loss: 1.0564 | Val Acc: 61.84% | Val Time: 3.10s
+2025-01-05 02:42:54,413 | INFO | Epoch [37] Train Loss: 1.2025 | Train Acc: 56.83% | Train Time: 28.72s | Val Loss: 1.0564 | Val Acc: 61.84% | Val Time: 3.10s | Total Elapsed Time: 1385.14s
+2025-01-05 02:42:54,413 | INFO | 开始第 38 轮训练。
+2025-01-05 02:43:27,699 | INFO | Epoch [38] Train Loss: 1.1936 | Train Acc: 57.33% | Train Time: 33.28s
+2025-01-05 02:43:30,791 | INFO | Epoch [38] Val Loss: 0.9894 | Val Acc: 65.60% | Val Time: 3.09s
+2025-01-05 02:43:30,792 | INFO | Epoch [38] Train Loss: 1.1936 | Train Acc: 57.33% | Train Time: 33.28s | Val Loss: 0.9894 | Val Acc: 65.60% | Val Time: 3.09s | Total Elapsed Time: 1421.52s
+2025-01-05 02:43:35,256 | INFO | 开始第 39 轮训练。
+2025-01-05 02:44:04,804 | INFO | Epoch [39] Train Loss: 1.1780 | Train Acc: 57.84% | Train Time: 29.55s
+2025-01-05 02:44:08,006 | INFO | Epoch [39] Val Loss: 1.0012 | Val Acc: 65.28% | Val Time: 3.20s
+2025-01-05 02:44:08,007 | INFO | Epoch [39] Train Loss: 1.1780 | Train Acc: 57.84% | Train Time: 29.55s | Val Loss: 1.0012 | Val Acc: 65.28% | Val Time: 3.20s | Total Elapsed Time: 1458.74s
+2025-01-05 02:44:08,007 | INFO | 开始第 40 轮训练。
+2025-01-05 02:44:41,676 | INFO | Epoch [40] Train Loss: 1.1570 | Train Acc: 58.24% | Train Time: 33.67s
+2025-01-05 02:44:44,682 | INFO | Epoch [40] Val Loss: 0.9944 | Val Acc: 65.60% | Val Time: 3.00s
+2025-01-05 02:44:44,683 | INFO | Epoch [40] Train Loss: 1.1570 | Train Acc: 58.24% | Train Time: 33.67s | Val Loss: 0.9944 | Val Acc: 65.60% | Val Time: 3.00s | Total Elapsed Time: 1495.41s
+2025-01-05 02:44:44,683 | INFO | 开始第 41 轮训练。
+2025-01-05 02:45:18,622 | INFO | Epoch [41] Train Loss: 1.1486 | Train Acc: 59.79% | Train Time: 33.94s
+2025-01-05 02:45:21,579 | INFO | Epoch [41] Val Loss: 0.9907 | Val Acc: 66.48% | Val Time: 2.95s
+2025-01-05 02:45:21,579 | INFO | Epoch [41] Train Loss: 1.1486 | Train Acc: 59.79% | Train Time: 33.94s | Val Loss: 0.9907 | Val Acc: 66.48% | Val Time: 2.95s | Total Elapsed Time: 1532.31s
+2025-01-05 02:45:25,575 | INFO | 开始第 42 轮训练。
+2025-01-05 02:45:55,677 | INFO | Epoch [42] Train Loss: 1.1502 | Train Acc: 59.42% | Train Time: 30.10s
+2025-01-05 02:45:58,986 | INFO | Epoch [42] Val Loss: 1.0232 | Val Acc: 63.92% | Val Time: 3.31s
+2025-01-05 02:45:58,986 | INFO | Epoch [42] Train Loss: 1.1502 | Train Acc: 59.42% | Train Time: 30.10s | Val Loss: 1.0232 | Val Acc: 63.92% | Val Time: 3.31s | Total Elapsed Time: 1569.72s
+2025-01-05 02:45:58,986 | INFO | 开始第 43 轮训练。
+2025-01-05 02:46:32,910 | INFO | Epoch [43] Train Loss: 1.1396 | Train Acc: 59.60% | Train Time: 33.92s
+2025-01-05 02:46:35,866 | INFO | Epoch [43] Val Loss: 0.9613 | Val Acc: 65.28% | Val Time: 2.95s
+2025-01-05 02:46:35,867 | INFO | Epoch [43] Train Loss: 1.1396 | Train Acc: 59.60% | Train Time: 33.92s | Val Loss: 0.9613 | Val Acc: 65.28% | Val Time: 2.95s | Total Elapsed Time: 1606.60s
+2025-01-05 02:46:35,867 | INFO | 开始第 44 轮训练。
+2025-01-05 02:47:09,329 | INFO | Epoch [44] Train Loss: 1.1230 | Train Acc: 59.78% | Train Time: 33.46s
+2025-01-05 02:47:12,475 | INFO | Epoch [44] Val Loss: 0.9143 | Val Acc: 68.48% | Val Time: 3.14s
+2025-01-05 02:47:12,475 | INFO | Epoch [44] Train Loss: 1.1230 | Train Acc: 59.78% | Train Time: 33.46s | Val Loss: 0.9143 | Val Acc: 68.48% | Val Time: 3.14s | Total Elapsed Time: 1643.21s
+2025-01-05 02:47:19,323 | INFO | 开始第 45 轮训练。
+2025-01-05 02:47:48,555 | INFO | Epoch [45] Train Loss: 1.1228 | Train Acc: 59.18% | Train Time: 29.23s
+2025-01-05 02:47:51,469 | INFO | Epoch [45] Val Loss: 0.9697 | Val Acc: 65.36% | Val Time: 2.91s
+2025-01-05 02:47:51,470 | INFO | Epoch [45] Train Loss: 1.1228 | Train Acc: 59.18% | Train Time: 29.23s | Val Loss: 0.9697 | Val Acc: 65.36% | Val Time: 2.91s | Total Elapsed Time: 1682.20s
+2025-01-05 02:47:51,470 | INFO | 开始第 46 轮训练。
+2025-01-05 02:48:25,233 | INFO | Epoch [46] Train Loss: 1.0879 | Train Acc: 60.69% | Train Time: 33.76s
+2025-01-05 02:48:28,112 | INFO | Epoch [46] Val Loss: 0.8975 | Val Acc: 68.24% | Val Time: 2.88s
+2025-01-05 02:48:28,112 | INFO | Epoch [46] Train Loss: 1.0879 | Train Acc: 60.69% | Train Time: 33.76s | Val Loss: 0.8975 | Val Acc: 68.24% | Val Time: 2.88s | Total Elapsed Time: 1718.84s
+2025-01-05 02:48:28,113 | INFO | 开始第 47 轮训练。
+2025-01-05 02:49:01,762 | INFO | Epoch [47] Train Loss: 1.0674 | Train Acc: 61.98% | Train Time: 33.65s
+2025-01-05 02:49:04,699 | INFO | Epoch [47] Val Loss: 0.8884 | Val Acc: 68.96% | Val Time: 2.94s
+2025-01-05 02:49:04,700 | INFO | Epoch [47] Train Loss: 1.0674 | Train Acc: 61.98% | Train Time: 33.65s | Val Loss: 0.8884 | Val Acc: 68.96% | Val Time: 2.94s | Total Elapsed Time: 1755.43s
+2025-01-05 02:49:09,392 | INFO | 开始第 48 轮训练。
+2025-01-05 02:49:39,020 | INFO | Epoch [48] Train Loss: 1.0584 | Train Acc: 62.27% | Train Time: 29.62s
+2025-01-05 02:49:41,721 | INFO | Epoch [48] Val Loss: 0.9093 | Val Acc: 67.04% | Val Time: 2.70s
+2025-01-05 02:49:41,722 | INFO | Epoch [48] Train Loss: 1.0584 | Train Acc: 62.27% | Train Time: 29.62s | Val Loss: 0.9093 | Val Acc: 67.04% | Val Time: 2.70s | Total Elapsed Time: 1792.45s
+2025-01-05 02:49:41,722 | INFO | 开始第 49 轮训练。
+2025-01-05 02:50:16,149 | INFO | Epoch [49] Train Loss: 1.0506 | Train Acc: 62.22% | Train Time: 34.43s
+2025-01-05 02:50:19,132 | INFO | Epoch [49] Val Loss: 0.8626 | Val Acc: 69.44% | Val Time: 2.98s
+2025-01-05 02:50:19,133 | INFO | Epoch [49] Train Loss: 1.0506 | Train Acc: 62.22% | Train Time: 34.43s | Val Loss: 0.8626 | Val Acc: 69.44% | Val Time: 2.98s | Total Elapsed Time: 1829.86s
+2025-01-05 02:50:22,342 | INFO | 开始第 50 轮训练。
+2025-01-05 02:50:53,097 | INFO | Epoch [50] Train Loss: 1.0613 | Train Acc: 62.64% | Train Time: 30.74s
+2025-01-05 02:50:56,303 | INFO | Epoch [50] Val Loss: 0.8463 | Val Acc: 69.60% | Val Time: 3.20s
+2025-01-05 02:50:56,304 | INFO | Epoch [50] Train Loss: 1.0613 | Train Acc: 62.64% | Train Time: 30.74s | Val Loss: 0.8463 | Val Acc: 69.60% | Val Time: 3.20s | Total Elapsed Time: 1867.04s
+2025-01-05 02:51:00,528 | INFO | 开始第 51 轮训练。
+2025-01-05 02:51:30,341 | INFO | Epoch [51] Train Loss: 1.0370 | Train Acc: 63.20% | Train Time: 29.81s
+2025-01-05 02:51:33,401 | INFO | Epoch [51] Val Loss: 0.8727 | Val Acc: 68.96% | Val Time: 3.06s
+2025-01-05 02:51:33,401 | INFO | Epoch [51] Train Loss: 1.0370 | Train Acc: 63.20% | Train Time: 29.81s | Val Loss: 0.8727 | Val Acc: 68.96% | Val Time: 3.06s | Total Elapsed Time: 1904.13s
+2025-01-05 02:51:33,401 | INFO | 开始第 52 轮训练。
+2025-01-05 02:52:06,463 | INFO | Epoch [52] Train Loss: 1.0171 | Train Acc: 63.68% | Train Time: 33.06s
+2025-01-05 02:52:09,350 | INFO | Epoch [52] Val Loss: 0.8469 | Val Acc: 69.92% | Val Time: 2.89s
+2025-01-05 02:52:09,351 | INFO | Epoch [52] Train Loss: 1.0171 | Train Acc: 63.68% | Train Time: 33.06s | Val Loss: 0.8469 | Val Acc: 69.92% | Val Time: 2.89s | Total Elapsed Time: 1940.08s
+2025-01-05 02:52:13,600 | INFO | 开始第 53 轮训练。
+2025-01-05 02:52:43,104 | INFO | Epoch [53] Train Loss: 1.0145 | Train Acc: 64.32% | Train Time: 29.50s
+2025-01-05 02:52:46,183 | INFO | Epoch [53] Val Loss: 0.8800 | Val Acc: 70.08% | Val Time: 3.08s
+2025-01-05 02:52:46,184 | INFO | Epoch [53] Train Loss: 1.0145 | Train Acc: 64.32% | Train Time: 29.50s | Val Loss: 0.8800 | Val Acc: 70.08% | Val Time: 3.08s | Total Elapsed Time: 1976.92s
+2025-01-05 02:52:50,942 | INFO | 开始第 54 轮训练。
+2025-01-05 02:53:19,738 | INFO | Epoch [54] Train Loss: 1.0047 | Train Acc: 64.13% | Train Time: 28.79s
+2025-01-05 02:53:22,504 | INFO | Epoch [54] Val Loss: 0.8029 | Val Acc: 71.52% | Val Time: 2.76s
+2025-01-05 02:53:22,505 | INFO | Epoch [54] Train Loss: 1.0047 | Train Acc: 64.13% | Train Time: 28.79s | Val Loss: 0.8029 | Val Acc: 71.52% | Val Time: 2.76s | Total Elapsed Time: 2013.24s
+2025-01-05 02:53:27,021 | INFO | 开始第 55 轮训练。
+2025-01-05 02:53:56,255 | INFO | Epoch [55] Train Loss: 0.9838 | Train Acc: 65.55% | Train Time: 29.22s
+2025-01-05 02:53:59,374 | INFO | Epoch [55] Val Loss: 0.8143 | Val Acc: 72.72% | Val Time: 3.12s
+2025-01-05 02:53:59,374 | INFO | Epoch [55] Train Loss: 0.9838 | Train Acc: 65.55% | Train Time: 29.22s | Val Loss: 0.8143 | Val Acc: 72.72% | Val Time: 3.12s | Total Elapsed Time: 2050.11s
+2025-01-05 02:54:03,986 | INFO | 开始第 56 轮训练。
+2025-01-05 02:54:33,289 | INFO | Epoch [56] Train Loss: 0.9773 | Train Acc: 65.70% | Train Time: 29.30s
+2025-01-05 02:54:36,007 | INFO | Epoch [56] Val Loss: 0.7630 | Val Acc: 73.76% | Val Time: 2.72s
+2025-01-05 02:54:36,008 | INFO | Epoch [56] Train Loss: 0.9773 | Train Acc: 65.70% | Train Time: 29.30s | Val Loss: 0.7630 | Val Acc: 73.76% | Val Time: 2.72s | Total Elapsed Time: 2086.74s
+2025-01-05 02:54:40,019 | INFO | 开始第 57 轮训练。
+2025-01-05 02:55:09,964 | INFO | Epoch [57] Train Loss: 0.9625 | Train Acc: 65.95% | Train Time: 29.93s
+2025-01-05 02:55:12,881 | INFO | Epoch [57] Val Loss: 0.8065 | Val Acc: 71.12% | Val Time: 2.91s
+2025-01-05 02:55:12,881 | INFO | Epoch [57] Train Loss: 0.9625 | Train Acc: 65.95% | Train Time: 29.93s | Val Loss: 0.8065 | Val Acc: 71.12% | Val Time: 2.91s | Total Elapsed Time: 2123.61s
+2025-01-05 02:55:12,882 | INFO | 开始第 58 轮训练。
+2025-01-05 02:55:45,662 | INFO | Epoch [58] Train Loss: 0.9555 | Train Acc: 66.14% | Train Time: 32.78s
+2025-01-05 02:55:48,438 | INFO | Epoch [58] Val Loss: 0.7872 | Val Acc: 71.44% | Val Time: 2.77s
+2025-01-05 02:55:48,439 | INFO | Epoch [58] Train Loss: 0.9555 | Train Acc: 66.14% | Train Time: 32.78s | Val Loss: 0.7872 | Val Acc: 71.44% | Val Time: 2.77s | Total Elapsed Time: 2159.17s
+2025-01-05 02:55:48,439 | INFO | 开始第 59 轮训练。
+2025-01-05 02:56:21,124 | INFO | Epoch [59] Train Loss: 0.9418 | Train Acc: 66.51% | Train Time: 32.68s
+2025-01-05 02:56:23,934 | INFO | Epoch [59] Val Loss: 0.7721 | Val Acc: 71.44% | Val Time: 2.81s
+2025-01-05 02:56:23,934 | INFO | Epoch [59] Train Loss: 0.9418 | Train Acc: 66.51% | Train Time: 32.68s | Val Loss: 0.7721 | Val Acc: 71.44% | Val Time: 2.81s | Total Elapsed Time: 2194.67s
+2025-01-05 02:56:23,935 | INFO | 开始第 60 轮训练。
+2025-01-05 02:56:56,610 | INFO | Epoch [60] Train Loss: 0.9440 | Train Acc: 66.74% | Train Time: 32.67s
+2025-01-05 02:56:59,369 | INFO | Epoch [60] Val Loss: 0.7899 | Val Acc: 71.68% | Val Time: 2.76s
+2025-01-05 02:56:59,370 | INFO | Epoch [60] Train Loss: 0.9440 | Train Acc: 66.74% | Train Time: 32.67s | Val Loss: 0.7899 | Val Acc: 71.68% | Val Time: 2.76s | Total Elapsed Time: 2230.10s
+2025-01-05 02:56:59,370 | INFO | 开始第 61 轮训练。
+2025-01-05 02:57:32,070 | INFO | Epoch [61] Train Loss: 0.9246 | Train Acc: 67.25% | Train Time: 32.70s
+2025-01-05 02:57:34,710 | INFO | Epoch [61] Val Loss: 0.7639 | Val Acc: 73.68% | Val Time: 2.64s
+2025-01-05 02:57:34,711 | INFO | Epoch [61] Train Loss: 0.9246 | Train Acc: 67.25% | Train Time: 32.70s | Val Loss: 0.7639 | Val Acc: 73.68% | Val Time: 2.64s | Total Elapsed Time: 2265.44s
+2025-01-05 02:57:34,711 | INFO | 开始第 62 轮训练。
+2025-01-05 02:58:07,383 | INFO | Epoch [62] Train Loss: 0.9167 | Train Acc: 67.46% | Train Time: 32.67s
+2025-01-05 02:58:10,127 | INFO | Epoch [62] Val Loss: 0.7385 | Val Acc: 74.88% | Val Time: 2.74s
+2025-01-05 02:58:10,127 | INFO | Epoch [62] Train Loss: 0.9167 | Train Acc: 67.46% | Train Time: 32.67s | Val Loss: 0.7385 | Val Acc: 74.88% | Val Time: 2.74s | Total Elapsed Time: 2300.86s
+2025-01-05 02:58:14,571 | INFO | 开始第 63 轮训练。
+2025-01-05 02:58:43,283 | INFO | Epoch [63] Train Loss: 0.9019 | Train Acc: 67.22% | Train Time: 28.71s
+2025-01-05 02:58:46,376 | INFO | Epoch [63] Val Loss: 0.7261 | Val Acc: 75.04% | Val Time: 3.09s
+2025-01-05 02:58:46,377 | INFO | Epoch [63] Train Loss: 0.9019 | Train Acc: 67.22% | Train Time: 28.71s | Val Loss: 0.7261 | Val Acc: 75.04% | Val Time: 3.09s | Total Elapsed Time: 2337.11s
+2025-01-05 02:58:50,976 | INFO | 开始第 64 轮训练。
+2025-01-05 02:59:19,412 | INFO | Epoch [64] Train Loss: 0.9017 | Train Acc: 67.57% | Train Time: 28.43s
+2025-01-05 02:59:22,324 | INFO | Epoch [64] Val Loss: 0.7178 | Val Acc: 74.32% | Val Time: 2.91s
+2025-01-05 02:59:22,325 | INFO | Epoch [64] Train Loss: 0.9017 | Train Acc: 67.57% | Train Time: 28.43s | Val Loss: 0.7178 | Val Acc: 74.32% | Val Time: 2.91s | Total Elapsed Time: 2373.06s
+2025-01-05 02:59:22,325 | INFO | 开始第 65 轮训练。
+2025-01-05 02:59:54,909 | INFO | Epoch [65] Train Loss: 0.9049 | Train Acc: 67.78% | Train Time: 32.58s
+2025-01-05 02:59:57,711 | INFO | Epoch [65] Val Loss: 0.7250 | Val Acc: 73.92% | Val Time: 2.80s
+2025-01-05 02:59:57,712 | INFO | Epoch [65] Train Loss: 0.9049 | Train Acc: 67.78% | Train Time: 32.58s | Val Loss: 0.7250 | Val Acc: 73.92% | Val Time: 2.80s | Total Elapsed Time: 2408.44s
+2025-01-05 02:59:57,712 | INFO | 开始第 66 轮训练。
+2025-01-05 03:00:30,577 | INFO | Epoch [66] Train Loss: 0.8930 | Train Acc: 68.43% | Train Time: 32.86s
+2025-01-05 03:00:33,317 | INFO | Epoch [66] Val Loss: 0.7568 | Val Acc: 73.12% | Val Time: 2.74s
+2025-01-05 03:00:33,318 | INFO | Epoch [66] Train Loss: 0.8930 | Train Acc: 68.43% | Train Time: 32.86s | Val Loss: 0.7568 | Val Acc: 73.12% | Val Time: 2.74s | Total Elapsed Time: 2444.05s
+2025-01-05 03:00:33,318 | INFO | 开始第 67 轮训练。
+2025-01-05 03:01:05,503 | INFO | Epoch [67] Train Loss: 0.8911 | Train Acc: 68.38% | Train Time: 32.18s
+2025-01-05 03:01:08,095 | INFO | Epoch [67] Val Loss: 0.7060 | Val Acc: 74.80% | Val Time: 2.59s
+2025-01-05 03:01:08,096 | INFO | Epoch [67] Train Loss: 0.8911 | Train Acc: 68.38% | Train Time: 32.18s | Val Loss: 0.7060 | Val Acc: 74.80% | Val Time: 2.59s | Total Elapsed Time: 2478.83s
+2025-01-05 03:01:08,096 | INFO | 开始第 68 轮训练。
+2025-01-05 03:01:41,043 | INFO | Epoch [68] Train Loss: 0.8711 | Train Acc: 69.26% | Train Time: 32.95s
+2025-01-05 03:01:43,819 | INFO | Epoch [68] Val Loss: 0.7268 | Val Acc: 73.28% | Val Time: 2.77s
+2025-01-05 03:01:43,820 | INFO | Epoch [68] Train Loss: 0.8711 | Train Acc: 69.26% | Train Time: 32.95s | Val Loss: 0.7268 | Val Acc: 73.28% | Val Time: 2.77s | Total Elapsed Time: 2514.55s
+2025-01-05 03:01:43,820 | INFO | 开始第 69 轮训练。
+2025-01-05 03:02:16,137 | INFO | Epoch [69] Train Loss: 0.8573 | Train Acc: 69.55% | Train Time: 32.32s
+2025-01-05 03:02:18,988 | INFO | Epoch [69] Val Loss: 0.6767 | Val Acc: 76.32% | Val Time: 2.85s
+2025-01-05 03:02:18,989 | INFO | Epoch [69] Train Loss: 0.8573 | Train Acc: 69.55% | Train Time: 32.32s | Val Loss: 0.6767 | Val Acc: 76.32% | Val Time: 2.85s | Total Elapsed Time: 2549.72s
+2025-01-05 03:02:22,876 | INFO | 开始第 70 轮训练。
+2025-01-05 03:02:52,434 | INFO | Epoch [70] Train Loss: 0.8321 | Train Acc: 70.50% | Train Time: 29.56s
+2025-01-05 03:02:55,348 | INFO | Epoch [70] Val Loss: 0.6798 | Val Acc: 75.76% | Val Time: 2.91s
+2025-01-05 03:02:55,349 | INFO | Epoch [70] Train Loss: 0.8321 | Train Acc: 70.50% | Train Time: 29.56s | Val Loss: 0.6798 | Val Acc: 75.76% | Val Time: 2.91s | Total Elapsed Time: 2586.08s
+2025-01-05 03:02:55,349 | INFO | 开始第 71 轮训练。
+2025-01-05 03:03:28,071 | INFO | Epoch [71] Train Loss: 0.8339 | Train Acc: 70.46% | Train Time: 32.72s
+2025-01-05 03:03:30,866 | INFO | Epoch [71] Val Loss: 0.6694 | Val Acc: 77.04% | Val Time: 2.79s
+2025-01-05 03:03:30,867 | INFO | Epoch [71] Train Loss: 0.8339 | Train Acc: 70.46% | Train Time: 32.72s | Val Loss: 0.6694 | Val Acc: 77.04% | Val Time: 2.79s | Total Elapsed Time: 2621.60s
+2025-01-05 03:03:34,490 | INFO | 开始第 72 轮训练。
+2025-01-05 03:04:04,678 | INFO | Epoch [72] Train Loss: 0.8231 | Train Acc: 70.40% | Train Time: 30.19s
+2025-01-05 03:04:07,711 | INFO | Epoch [72] Val Loss: 0.6657 | Val Acc: 77.52% | Val Time: 3.03s
+2025-01-05 03:04:07,712 | INFO | Epoch [72] Train Loss: 0.8231 | Train Acc: 70.40% | Train Time: 30.19s | Val Loss: 0.6657 | Val Acc: 77.52% | Val Time: 3.03s | Total Elapsed Time: 2658.44s
+2025-01-05 03:04:12,391 | INFO | 开始第 73 轮训练。
+2025-01-05 03:04:41,590 | INFO | Epoch [73] Train Loss: 0.8262 | Train Acc: 70.94% | Train Time: 29.20s
+2025-01-05 03:04:44,556 | INFO | Epoch [73] Val Loss: 0.6760 | Val Acc: 76.08% | Val Time: 2.96s
+2025-01-05 03:04:44,557 | INFO | Epoch [73] Train Loss: 0.8262 | Train Acc: 70.94% | Train Time: 29.20s | Val Loss: 0.6760 | Val Acc: 76.08% | Val Time: 2.96s | Total Elapsed Time: 2695.29s
+2025-01-05 03:04:44,557 | INFO | 开始第 74 轮训练。
+2025-01-05 03:05:17,097 | INFO | Epoch [74] Train Loss: 0.8251 | Train Acc: 70.29% | Train Time: 32.54s
+2025-01-05 03:05:19,672 | INFO | Epoch [74] Val Loss: 0.6613 | Val Acc: 78.08% | Val Time: 2.57s
+2025-01-05 03:05:19,672 | INFO | Epoch [74] Train Loss: 0.8251 | Train Acc: 70.29% | Train Time: 32.54s | Val Loss: 0.6613 | Val Acc: 78.08% | Val Time: 2.57s | Total Elapsed Time: 2730.40s
+2025-01-05 03:05:23,922 | INFO | 开始第 75 轮训练。
+2025-01-05 03:05:52,543 | INFO | Epoch [75] Train Loss: 0.8100 | Train Acc: 71.26% | Train Time: 28.62s
+2025-01-05 03:05:55,345 | INFO | Epoch [75] Val Loss: 0.6807 | Val Acc: 76.88% | Val Time: 2.80s
+2025-01-05 03:05:55,346 | INFO | Epoch [75] Train Loss: 0.8100 | Train Acc: 71.26% | Train Time: 28.62s | Val Loss: 0.6807 | Val Acc: 76.88% | Val Time: 2.80s | Total Elapsed Time: 2766.08s
+2025-01-05 03:05:55,346 | INFO | 开始第 76 轮训练。
+2025-01-05 03:06:27,799 | INFO | Epoch [76] Train Loss: 0.7942 | Train Acc: 71.71% | Train Time: 32.45s
+2025-01-05 03:06:30,430 | INFO | Epoch [76] Val Loss: 0.6743 | Val Acc: 76.80% | Val Time: 2.63s
+2025-01-05 03:06:30,431 | INFO | Epoch [76] Train Loss: 0.7942 | Train Acc: 71.71% | Train Time: 32.45s | Val Loss: 0.6743 | Val Acc: 76.80% | Val Time: 2.63s | Total Elapsed Time: 2801.16s
+2025-01-05 03:06:30,431 | INFO | 开始第 77 轮训练。
+2025-01-05 03:07:03,033 | INFO | Epoch [77] Train Loss: 0.7970 | Train Acc: 71.63% | Train Time: 32.60s
+2025-01-05 03:07:05,994 | INFO | Epoch [77] Val Loss: 0.6486 | Val Acc: 78.64% | Val Time: 2.96s
+2025-01-05 03:07:05,995 | INFO | Epoch [77] Train Loss: 0.7970 | Train Acc: 71.63% | Train Time: 32.60s | Val Loss: 0.6486 | Val Acc: 78.64% | Val Time: 2.96s | Total Elapsed Time: 2836.73s
+2025-01-05 03:07:10,447 | INFO | 开始第 78 轮训练。
+2025-01-05 03:07:38,756 | INFO | Epoch [78] Train Loss: 0.7786 | Train Acc: 72.26% | Train Time: 28.31s
+2025-01-05 03:07:41,649 | INFO | Epoch [78] Val Loss: 0.6392 | Val Acc: 78.40% | Val Time: 2.89s
+2025-01-05 03:07:41,650 | INFO | Epoch [78] Train Loss: 0.7786 | Train Acc: 72.26% | Train Time: 28.31s | Val Loss: 0.6392 | Val Acc: 78.40% | Val Time: 2.89s | Total Elapsed Time: 2872.38s
+2025-01-05 03:07:41,650 | INFO | 开始第 79 轮训练。
+2025-01-05 03:08:14,074 | INFO | Epoch [79] Train Loss: 0.7587 | Train Acc: 73.52% | Train Time: 32.42s
+2025-01-05 03:08:16,933 | INFO | Epoch [79] Val Loss: 0.6448 | Val Acc: 77.92% | Val Time: 2.86s
+2025-01-05 03:08:16,933 | INFO | Epoch [79] Train Loss: 0.7587 | Train Acc: 73.52% | Train Time: 32.42s | Val Loss: 0.6448 | Val Acc: 77.92% | Val Time: 2.86s | Total Elapsed Time: 2907.66s
+2025-01-05 03:08:16,933 | INFO | 开始第 80 轮训练。
+2025-01-05 03:08:49,152 | INFO | Epoch [80] Train Loss: 0.7586 | Train Acc: 72.67% | Train Time: 32.22s
+2025-01-05 03:08:52,000 | INFO | Epoch [80] Val Loss: 0.6459 | Val Acc: 78.48% | Val Time: 2.85s
+2025-01-05 03:08:52,001 | INFO | Epoch [80] Train Loss: 0.7586 | Train Acc: 72.67% | Train Time: 32.22s | Val Loss: 0.6459 | Val Acc: 78.48% | Val Time: 2.85s | Total Elapsed Time: 2942.73s
+2025-01-05 03:08:52,001 | INFO | 开始第 81 轮训练。
+2025-01-05 03:09:24,632 | INFO | Epoch [81] Train Loss: 0.7529 | Train Acc: 73.30% | Train Time: 32.63s
+2025-01-05 03:09:27,464 | INFO | Epoch [81] Val Loss: 0.6297 | Val Acc: 78.40% | Val Time: 2.83s
+2025-01-05 03:09:27,465 | INFO | Epoch [81] Train Loss: 0.7529 | Train Acc: 73.30% | Train Time: 32.63s | Val Loss: 0.6297 | Val Acc: 78.40% | Val Time: 2.83s | Total Elapsed Time: 2978.20s
+2025-01-05 03:09:27,465 | INFO | 开始第 82 轮训练。
+2025-01-05 03:10:00,320 | INFO | Epoch [82] Train Loss: 0.7436 | Train Acc: 73.57% | Train Time: 32.85s
+2025-01-05 03:10:02,888 | INFO | Epoch [82] Val Loss: 0.6310 | Val Acc: 79.28% | Val Time: 2.57s
+2025-01-05 03:10:02,889 | INFO | Epoch [82] Train Loss: 0.7436 | Train Acc: 73.57% | Train Time: 32.85s | Val Loss: 0.6310 | Val Acc: 79.28% | Val Time: 2.57s | Total Elapsed Time: 3013.62s
+2025-01-05 03:10:06,149 | INFO | 开始第 83 轮训练。
+2025-01-05 03:10:36,777 | INFO | Epoch [83] Train Loss: 0.7629 | Train Acc: 72.74% | Train Time: 30.63s
+2025-01-05 03:10:39,722 | INFO | Epoch [83] Val Loss: 0.6443 | Val Acc: 78.64% | Val Time: 2.94s
+2025-01-05 03:10:39,723 | INFO | Epoch [83] Train Loss: 0.7629 | Train Acc: 72.74% | Train Time: 30.63s | Val Loss: 0.6443 | Val Acc: 78.64% | Val Time: 2.94s | Total Elapsed Time: 3050.45s
+2025-01-05 03:10:39,723 | INFO | 开始第 84 轮训练。
+2025-01-05 03:11:12,584 | INFO | Epoch [84] Train Loss: 0.7197 | Train Acc: 73.98% | Train Time: 32.86s
+2025-01-05 03:11:15,557 | INFO | Epoch [84] Val Loss: 0.6275 | Val Acc: 79.84% | Val Time: 2.97s
+2025-01-05 03:11:15,558 | INFO | Epoch [84] Train Loss: 0.7197 | Train Acc: 73.98% | Train Time: 32.86s | Val Loss: 0.6275 | Val Acc: 79.84% | Val Time: 2.97s | Total Elapsed Time: 3086.29s
+2025-01-05 03:11:20,241 | INFO | 开始第 85 轮训练。
+2025-01-05 03:11:49,259 | INFO | Epoch [85] Train Loss: 0.7448 | Train Acc: 73.54% | Train Time: 29.01s
+2025-01-05 03:11:52,099 | INFO | Epoch [85] Val Loss: 0.6428 | Val Acc: 78.56% | Val Time: 2.84s
+2025-01-05 03:11:52,100 | INFO | Epoch [85] Train Loss: 0.7448 | Train Acc: 73.54% | Train Time: 29.01s | Val Loss: 0.6428 | Val Acc: 78.56% | Val Time: 2.84s | Total Elapsed Time: 3122.83s
+2025-01-05 03:11:52,100 | INFO | 开始第 86 轮训练。
+2025-01-05 03:12:24,824 | INFO | Epoch [86] Train Loss: 0.7362 | Train Acc: 73.94% | Train Time: 32.72s
+2025-01-05 03:12:27,674 | INFO | Epoch [86] Val Loss: 0.6256 | Val Acc: 78.88% | Val Time: 2.85s
+2025-01-05 03:12:27,675 | INFO | Epoch [86] Train Loss: 0.7362 | Train Acc: 73.94% | Train Time: 32.72s | Val Loss: 0.6256 | Val Acc: 78.88% | Val Time: 2.85s | Total Elapsed Time: 3158.41s
+2025-01-05 03:12:27,676 | INFO | 开始第 87 轮训练。
+2025-01-05 03:13:00,260 | INFO | Epoch [87] Train Loss: 0.7098 | Train Acc: 74.72% | Train Time: 32.58s
+2025-01-05 03:13:02,816 | INFO | Epoch [87] Val Loss: 0.6119 | Val Acc: 79.84% | Val Time: 2.55s
+2025-01-05 03:13:02,817 | INFO | Epoch [87] Train Loss: 0.7098 | Train Acc: 74.72% | Train Time: 32.58s | Val Loss: 0.6119 | Val Acc: 79.84% | Val Time: 2.55s | Total Elapsed Time: 3193.55s
+2025-01-05 03:13:02,817 | INFO | 开始第 88 轮训练。
+2025-01-05 03:13:35,548 | INFO | Epoch [88] Train Loss: 0.7217 | Train Acc: 74.58% | Train Time: 32.73s
+2025-01-05 03:13:38,475 | INFO | Epoch [88] Val Loss: 0.6179 | Val Acc: 79.52% | Val Time: 2.93s
+2025-01-05 03:13:38,476 | INFO | Epoch [88] Train Loss: 0.7217 | Train Acc: 74.58% | Train Time: 32.73s | Val Loss: 0.6179 | Val Acc: 79.52% | Val Time: 2.93s | Total Elapsed Time: 3229.21s
+2025-01-05 03:13:38,477 | INFO | 开始第 89 轮训练。
+2025-01-05 03:14:11,228 | INFO | Epoch [89] Train Loss: 0.7221 | Train Acc: 74.78% | Train Time: 32.75s
+2025-01-05 03:14:14,254 | INFO | Epoch [89] Val Loss: 0.6101 | Val Acc: 80.00% | Val Time: 3.02s
+2025-01-05 03:14:14,254 | INFO | Epoch [89] Train Loss: 0.7221 | Train Acc: 74.78% | Train Time: 32.75s | Val Loss: 0.6101 | Val Acc: 80.00% | Val Time: 3.02s | Total Elapsed Time: 3264.99s
+2025-01-05 03:14:18,547 | INFO | 开始第 90 轮训练。
+2025-01-05 03:14:47,949 | INFO | Epoch [90] Train Loss: 0.6997 | Train Acc: 75.12% | Train Time: 29.39s
+2025-01-05 03:14:50,994 | INFO | Epoch [90] Val Loss: 0.6184 | Val Acc: 78.96% | Val Time: 3.04s
+2025-01-05 03:14:50,996 | INFO | Epoch [90] Train Loss: 0.6997 | Train Acc: 75.12% | Train Time: 29.39s | Val Loss: 0.6184 | Val Acc: 78.96% | Val Time: 3.04s | Total Elapsed Time: 3301.73s
+2025-01-05 03:14:50,996 | INFO | 开始第 91 轮训练。
+2025-01-05 03:15:23,870 | INFO | Epoch [91] Train Loss: 0.6825 | Train Acc: 76.10% | Train Time: 32.87s
+2025-01-05 03:15:26,938 | INFO | Epoch [91] Val Loss: 0.6025 | Val Acc: 80.08% | Val Time: 3.07s
+2025-01-05 03:15:26,939 | INFO | Epoch [91] Train Loss: 0.6825 | Train Acc: 76.10% | Train Time: 32.87s | Val Loss: 0.6025 | Val Acc: 80.08% | Val Time: 3.07s | Total Elapsed Time: 3337.67s
+2025-01-05 03:15:31,615 | INFO | 开始第 92 轮训练。
+2025-01-05 03:16:00,663 | INFO | Epoch [92] Train Loss: 0.6916 | Train Acc: 75.17% | Train Time: 29.05s
+2025-01-05 03:16:03,525 | INFO | Epoch [92] Val Loss: 0.6019 | Val Acc: 79.92% | Val Time: 2.86s
+2025-01-05 03:16:03,526 | INFO | Epoch [92] Train Loss: 0.6916 | Train Acc: 75.17% | Train Time: 29.05s | Val Loss: 0.6019 | Val Acc: 79.92% | Val Time: 2.86s | Total Elapsed Time: 3374.26s
+2025-01-05 03:16:03,526 | INFO | 开始第 93 轮训练。
+2025-01-05 03:16:35,752 | INFO | Epoch [93] Train Loss: 0.6953 | Train Acc: 76.06% | Train Time: 32.22s
+2025-01-05 03:16:38,339 | INFO | Epoch [93] Val Loss: 0.6138 | Val Acc: 79.20% | Val Time: 2.59s
+2025-01-05 03:16:38,340 | INFO | Epoch [93] Train Loss: 0.6953 | Train Acc: 76.06% | Train Time: 32.22s | Val Loss: 0.6138 | Val Acc: 79.20% | Val Time: 2.59s | Total Elapsed Time: 3409.07s
+2025-01-05 03:16:38,340 | INFO | 开始第 94 轮训练。
+2025-01-05 03:17:10,476 | INFO | Epoch [94] Train Loss: 0.6931 | Train Acc: 75.34% | Train Time: 32.13s
+2025-01-05 03:17:13,034 | INFO | Epoch [94] Val Loss: 0.6035 | Val Acc: 80.00% | Val Time: 2.56s
+2025-01-05 03:17:13,035 | INFO | Epoch [94] Train Loss: 0.6931 | Train Acc: 75.34% | Train Time: 32.13s | Val Loss: 0.6035 | Val Acc: 80.00% | Val Time: 2.56s | Total Elapsed Time: 3443.77s
+2025-01-05 03:17:13,035 | INFO | 开始第 95 轮训练。
+2025-01-05 03:17:45,454 | INFO | Epoch [95] Train Loss: 0.7070 | Train Acc: 75.02% | Train Time: 32.42s
+2025-01-05 03:17:48,386 | INFO | Epoch [95] Val Loss: 0.6066 | Val Acc: 79.36% | Val Time: 2.93s
+2025-01-05 03:17:48,387 | INFO | Epoch [95] Train Loss: 0.7070 | Train Acc: 75.02% | Train Time: 32.42s | Val Loss: 0.6066 | Val Acc: 79.36% | Val Time: 2.93s | Total Elapsed Time: 3479.12s
+2025-01-05 03:17:48,387 | INFO | 开始第 96 轮训练。
+2025-01-05 03:18:20,728 | INFO | Epoch [96] Train Loss: 0.7028 | Train Acc: 74.59% | Train Time: 32.34s
+2025-01-05 03:18:23,384 | INFO | Epoch [96] Val Loss: 0.6078 | Val Acc: 79.20% | Val Time: 2.65s
+2025-01-05 03:18:23,384 | INFO | Epoch [96] Train Loss: 0.7028 | Train Acc: 74.59% | Train Time: 32.34s | Val Loss: 0.6078 | Val Acc: 79.20% | Val Time: 2.65s | Total Elapsed Time: 3514.12s
+2025-01-05 03:18:23,384 | INFO | 开始第 97 轮训练。
+2025-01-05 03:18:55,782 | INFO | Epoch [97] Train Loss: 0.6853 | Train Acc: 76.34% | Train Time: 32.40s
+2025-01-05 03:18:58,497 | INFO | Epoch [97] Val Loss: 0.6080 | Val Acc: 79.68% | Val Time: 2.71s
+2025-01-05 03:18:58,497 | INFO | Epoch [97] Train Loss: 0.6853 | Train Acc: 76.34% | Train Time: 32.40s | Val Loss: 0.6080 | Val Acc: 79.68% | Val Time: 2.71s | Total Elapsed Time: 3549.23s
+2025-01-05 03:18:58,497 | INFO | 开始第 98 轮训练。
+2025-01-05 03:19:31,400 | INFO | Epoch [98] Train Loss: 0.6928 | Train Acc: 75.79% | Train Time: 32.90s
+2025-01-05 03:19:33,952 | INFO | Epoch [98] Val Loss: 0.6059 | Val Acc: 79.60% | Val Time: 2.55s
+2025-01-05 03:19:33,953 | INFO | Epoch [98] Train Loss: 0.6928 | Train Acc: 75.79% | Train Time: 32.90s | Val Loss: 0.6059 | Val Acc: 79.60% | Val Time: 2.55s | Total Elapsed Time: 3584.68s
+2025-01-05 03:19:33,953 | INFO | 开始第 99 轮训练。
+2025-01-05 03:20:06,173 | INFO | Epoch [99] Train Loss: 0.6780 | Train Acc: 76.35% | Train Time: 32.22s
+2025-01-05 03:20:09,027 | INFO | Epoch [99] Val Loss: 0.6063 | Val Acc: 79.68% | Val Time: 2.85s
+2025-01-05 03:20:09,028 | INFO | Epoch [99] Train Loss: 0.6780 | Train Acc: 76.35% | Train Time: 32.22s | Val Loss: 0.6063 | Val Acc: 79.68% | Val Time: 2.85s | Total Elapsed Time: 3619.76s
+2025-01-05 03:20:09,028 | INFO | 开始第 100 轮训练。
+2025-01-05 03:20:41,565 | INFO | Epoch [100] Train Loss: 0.6897 | Train Acc: 75.55% | Train Time: 32.54s
+2025-01-05 03:20:44,348 | INFO | Epoch [100] Val Loss: 0.6063 | Val Acc: 79.68% | Val Time: 2.78s
+2025-01-05 03:20:44,349 | INFO | Epoch [100] Train Loss: 0.6897 | Train Acc: 75.55% | Train Time: 32.54s | Val Loss: 0.6063 | Val Acc: 79.68% | Val Time: 2.78s | Total Elapsed Time: 3655.08s
+2025-01-05 03:20:44,877 | INFO | 训练脚本已完成。
